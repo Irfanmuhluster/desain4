@@ -1,0 +1,57 @@
+.service {
+    display: flex;    
+    @include media-breakpoint-up(md) {
+        flex-direction: row;
+    }
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: transparent;
+    bottom: auto;
+    .service-box {
+        flex: 1 1 0%;
+        width: 100%;
+        overflow: hidden;
+        border-radius: $border-radius-lg;
+        background-color: white;
+        text-align: left;
+        padding: 1.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1.5rem;
+        color: $coolGray-800;
+        .icon {
+            display: flex;
+            justify-content : center;
+            align-items: center;
+            .flex-icon {
+                padding: 1rem;
+                border-radius: 50rem;
+                width: 60px;
+                height: 60px;
+                background-color: rgba(34,211,238,0.5);
+            }
+        }
+        .service-welcome-by {
+            font-weight: $font-size-base;
+            color: $cyan-600;
+        }
+        .service-welcome-level {
+            color: $gray-500;
+        }
+        .service-title {
+            padding-top: 1.5rem;
+            text-align: center;
+            font-weight: $font-weight-bold;
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+        }
+        p {
+            text-align: center;
+            font-weight: $font-size-base;
+            @include text-base();
+        }
+    }
+}
