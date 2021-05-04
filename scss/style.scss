@@ -27,7 +27,7 @@ $utilities: (
           auto: auto
         )
       ),
- );
+);
 
 // warna
 $rose-50: #fff1f2;
@@ -302,6 +302,12 @@ $theme-colors: (
     padding-left: 15px;
 }
 
+// .navbar-light .navbar-nav .nav-link {
+//     @include media-breakpoint-up(md) {
+//         color: white !important;
+//     }
+// }
+
 ul {
     list-style-type: none;
 }
@@ -325,3 +331,5 @@ ul {
     color: #f8f9fa;
     padding-top: 3rem;
 }
+
+

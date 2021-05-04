@@ -4,7 +4,12 @@
     right: 0;
     left: 0;
     background-color: transparent;
-    // color: #ffff !important;
+    .navbar-nav .nav-link {
+        color: white !important;
+        @include media-breakpoint-down (md) {
+            color: rgba(0, 0, 0, 0.9) !important;
+        }
+    }
     z-index: 11;
     @include media-breakpoint-down(md) { 
         background-color: #ffff !important;

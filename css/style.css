@@ -7004,6 +7004,11 @@ textarea.form-control-lg {
   left: 0;
   background-color: transparent;
   z-index: 11; }
+  .navbar-fixed .navbar-nav .nav-link {
+    color: white !important; }
+    @media (max-width: 767.98px) {
+      .navbar-fixed .navbar-nav .nav-link {
+        color: rgba(0, 0, 0, 0.9) !important; } }
   @media (max-width: 767.98px) {
     .navbar-fixed {
       background-color: #ffff !important; } }
